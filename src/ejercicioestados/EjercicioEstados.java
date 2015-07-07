@@ -39,6 +39,7 @@ public class EjercicioEstados {
         miMaqDul.setMoneda(Boolean.TRUE);
         miMaqDul.procesar();
         miMaqDul.procesar();
+        miMaqDul.procesar();
         
         
     }

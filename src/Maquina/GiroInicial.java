@@ -10,9 +10,7 @@ package Maquina;
  * @author adiseño.2015
  */
 public class GiroInicial implements Estado{
-
-    public int estado;
-    
+  
     @Override
     public void cambioEstado(MaquinaDulce miMaquina) {
         
@@ -20,6 +18,7 @@ public class GiroInicial implements Estado{
             miMaquina.setEstado(2);
             System.out.println("Se cambio del estado Giro al estado Final");
         }else{
+            miMaquina.setEstado(0);
             System.out.println("Se cambio del estado Giro al estado Inicial porque no hay moneda");
         }
         

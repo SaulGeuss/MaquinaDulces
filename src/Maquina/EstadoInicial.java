@@ -10,8 +10,6 @@ package Maquina;
  * @author adiseño.2015
  */
 public class EstadoInicial implements Estado{
-
-    public int estado;
     
     @Override
     public void cambioEstado(MaquinaDulce miMaquina) {
